@@ -3,6 +3,7 @@ import CountdownCo from "@/components/CountdownCo";
 import Description from "@/components/Description";
 import Mission from "@/components/Mission";
 import Claim from "@/components/Claim";
+import WalletConnect from "@/components/WalletConnect";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,9 +16,7 @@ export default function Home() {
         <div className="w-full flex flex-col px-3 sm:px-[24px]">
           <div className="w-full py-[26px]  flex items-center justify-between ">
             <p className="text-[30px] font-semibold text-black">Giveaway</p>
-            <button className="py-[9px] px-[16px] bg-[#3396ff] border border-[#2e87e6] rounded-3xl text-[16px] text-white animate-showTop">
-              Connect Wallet
-            </button>
+            <WalletConnect />
           </div>
           <CountdownCo />
           <Description />
