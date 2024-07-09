@@ -1,7 +1,7 @@
 function Mission() {
   return (
     <div className="w-full flex flex-col items-start justify-start gap-2">
-      <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] rounded-lg">
+      <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] rounded-lg animate-showTop-08">
         <div className="flex items-center justify-start gap-2">
           <img
             className="w-10 h-10"
@@ -15,7 +15,7 @@ function Mission() {
           Complete
         </button>
       </div>
-      <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] rounded-lg">
+      <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] rounded-lg animate-showTop-09">
         <div className="flex items-center justify-start gap-2">
           <img
             className="w-10 h-10"
@@ -29,7 +29,7 @@ function Mission() {
           Complete
         </button>
       </div>
-      <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] rounded-lg">
+      <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] rounded-lg animate-showTop-1">
         <div className="flex items-center justify-start gap-2">
           <img
             className="w-10 h-10"
@@ -43,7 +43,7 @@ function Mission() {
           Complete
         </button>
       </div>
-      <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] rounded-lg">
+      <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] rounded-lg animate-showTop-1.1">
         <div className="flex items-center justify-start gap-2">
           <img
             className="w-10 h-10"
@@ -57,7 +57,7 @@ function Mission() {
           Complete
         </button>
       </div>
-      <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] rounded-lg">
+      <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] rounded-lg animate-showTop-1.2">
         <div className="flex items-center justify-start gap-2">
           <img
             className="w-10 h-10"
