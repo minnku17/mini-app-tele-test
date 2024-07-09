@@ -15,8 +15,8 @@ const config: Config = {
       },
       keyframes: {
         showTop: {
-          "0%": { opacity: 0, transform: "translate(0, 50px)" },
-          "100%": { opacity: 1, transform: "translate(0, 0)" },
+          "0%": { opacity: "0", transform: "translate(0, 50px)" },
+          "100%": { opacity: "1", transform: "translate(0, 0)" },
         },
       },
       animation: {
