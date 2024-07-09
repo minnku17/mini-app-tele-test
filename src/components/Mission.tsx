@@ -1,7 +1,18 @@
+import { useState } from "react";
+
 function Mission() {
+  const [twitter, setTwitter] = useState<boolean>(false);
+  const [telegram, setTelegram] = useState<boolean>(false);
+  const [medium, setMedium] = useState<boolean>(false);
+  const [instagram, setInstagram] = useState<boolean>(false);
+
   return (
     <div className="w-full flex flex-col items-start justify-start gap-2">
-      <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] rounded-lg animate-showTop-08">
+      <a
+        href="twitter://user?screen_name=ravegamenft"
+        target="_blank"
+        className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] hover:bg-[#d1d5dc] rounded-lg animate-showTop-08"
+      >
         <div className="flex items-center justify-start gap-2">
           <img
             className="w-10 h-10"
@@ -14,8 +25,8 @@ function Mission() {
         <button className="px-3 py-2 text-white text-[14px] rounded-lg bg-[#0184c7]">
           Complete
         </button>
-      </div>
-      <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] rounded-lg animate-showTop-09">
+      </a>
+      <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] hover:bg-[#d1d5dc] rounded-lg animate-showTop-09">
         <div className="flex items-center justify-start gap-2">
           <img
             className="w-10 h-10"
@@ -29,7 +40,7 @@ function Mission() {
           Complete
         </button>
       </div>
-      <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] rounded-lg animate-showTop-1">
+      <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] hover:bg-[#d1d5dc] rounded-lg animate-showTop-1">
         <div className="flex items-center justify-start gap-2">
           <img
             className="w-10 h-10"
@@ -43,7 +54,7 @@ function Mission() {
           Complete
         </button>
       </div>
-      <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] rounded-lg animate-showTop-1.1">
+      <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] hover:bg-[#d1d5dc] rounded-lg animate-showTop-1.1">
         <div className="flex items-center justify-start gap-2">
           <img
             className="w-10 h-10"
@@ -57,7 +68,7 @@ function Mission() {
           Complete
         </button>
       </div>
-      <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] rounded-lg animate-showTop-1.2">
+      <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] hover:bg-[#d1d5dc] rounded-lg animate-showTop-1.2">
         <div className="flex items-center justify-start gap-2">
           <img
             className="w-10 h-10"
