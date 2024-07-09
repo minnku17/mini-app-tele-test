@@ -4,10 +4,15 @@ import Description from "@/components/Description";
 import Mission from "@/components/Mission";
 import Claim from "@/components/Claim";
 import WalletConnect from "@/components/WalletConnect";
+import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const [twitter, setTwitter] = useState<boolean>(false);
+  const [telegram, setTelegram] = useState<boolean>(false);
+  const [medium, setMedium] = useState<boolean>(false);
+  const [instagram, setInstagram] = useState<boolean>(false);
   return (
     <main
       className={`flex w-full min-h-screen flex-col items-center justify-center bg-white p-2 sm:p-0 ${inter.className}`}
@@ -20,8 +25,17 @@ export default function Home() {
           </div>
           <CountdownCo />
           <Description />
-          <Mission />
-          <Claim />
+          <Mission
+            twitter={twitter}
+            setTwitter={setTwitter}
+            telegram={telegram}
+            setTelegram={setTelegram}
+            medium={medium}
+            setMedium={setMedium}
+            instagram={instagram}
+            setInstagram={setInstagram}
+          />
+          <Claim isClaim={twitter && telegram && medium && instagram} />
         </div>
         <div className="border-t border-[#e6e7eb] rounded-b-md bg-[#f3f4f6] py-[16px] w-full flex items-center justify-center gap-2">
           <p className="text-black">Powered by</p>

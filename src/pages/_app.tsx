@@ -9,6 +9,8 @@ import {
 import { Web3Modal } from "@web3modal/react";
 import type { AppProps } from "next/app";
 import { configureChains, createConfig, WagmiConfig } from "wagmi";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const projectId = config.walletConnectProjectId;
 const { publicClient } = configureChains(config.chains, [
@@ -32,6 +34,7 @@ export default function App({ Component, pageProps }: AppProps) {
         ethereumClient={ethereumClient}
         defaultChain={config.chains[0]}
       />
+      <ToastContainer />
     </NoSsr>
   );
 }
