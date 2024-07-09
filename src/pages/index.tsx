@@ -60,6 +60,89 @@ export default function Home() {
               $3,000 of $BTCBNB! 🎉⬇️
             </p>
           </div>
+          <div className="w-full flex flex-col items-start justify-start gap-2">
+            <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] rounded-lg">
+              <div className="flex items-center justify-start gap-2">
+                <img
+                  className="w-10 h-10"
+                  src="https://assets1.chainstoreage.com/styles/max_width_800/s3/2023-07/twitter-x-logo.png?itok=pekgiLf9"
+                />
+                <p className="text-[#6b7280] text-[16px] ">
+                  Follow us on Twitter
+                </p>
+              </div>
+              <button className="px-4 py-2 text-white text-[14px] rounded-lg bg-[#0184c7]">
+                Complete
+              </button>
+            </div>
+            <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] rounded-lg">
+              <div className="flex items-center justify-start gap-2">
+                <img
+                  className="w-10 h-10"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png?20220101141644"
+                />
+                <p className="text-[#6b7280] text-[16px] ">
+                  Join our Telegram group
+                </p>
+              </div>
+              <button className="px-4 py-2 text-white text-[14px] rounded-lg bg-[#0184c7]">
+                Complete
+              </button>
+            </div>
+            <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] rounded-lg">
+              <div className="flex items-center justify-start gap-2">
+                <img
+                  className="w-10 h-10"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png?20220101141644"
+                />
+                <p className="text-[#6b7280] text-[16px] ">
+                  Join our Telegram group
+                </p>
+              </div>
+              <button className="px-4 py-2 text-white text-[14px] rounded-lg bg-[#0184c7]">
+                Complete
+              </button>
+            </div>
+            <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] rounded-lg">
+              <div className="flex items-center justify-start gap-2">
+                <img
+                  className="w-10 h-10"
+                  src="https://cdn.iconscout.com/icon/free/png-256/free-medium-47-433328.png?f=webp"
+                />
+                <p className="text-[#6b7280] text-[16px] ">
+                  Follow us on Medium
+                </p>
+              </div>
+              <button className="px-4 py-2 text-white text-[14px] rounded-lg bg-[#0184c7]">
+                Complete
+              </button>
+            </div>
+            <div className="w-full p-2 flex items-center justify-between bg-[#f3f4f6] rounded-lg">
+              <div className="flex items-center justify-start gap-2">
+                <img
+                  className="w-10 h-10"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"
+                />
+                <p className="text-[#6b7280] text-[16px] ">
+                  Follow us on Instagram
+                </p>
+              </div>
+              <button className="px-4 py-2 text-white text-[14px] rounded-lg bg-[#0184c7]">
+                Complete
+              </button>
+            </div>
+          </div>
+          <div className="pb-10 pt-4 w-full flex flex-col items-center justify-start">
+            <p className="text-[18px] text-black font-semibold">
+              Unlock 4 More Entries
+            </p>
+            <p className="mt-1 text-[14px] text-[#6b7280]">
+              Complete the above entries to unlock the rest!
+            </p>
+            <button className="mt-4 w-[192px] h-[40px] rounded-lg px-5 py-2 text-white bg-[#9ca3af]">
+              Claim
+            </button>
+          </div>
         </div>
         <div className="border-t border-[#e6e7eb] rounded-b-md bg-[#f3f4f6] py-[16px] w-full flex items-center justify-center gap-2">
           <p className="text-black">Powered by</p>
